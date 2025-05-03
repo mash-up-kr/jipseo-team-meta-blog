@@ -16,7 +16,7 @@ const Navigator = () => {
           key={item.label}
           href={item.href}
           aria-label={item.label}
-          className="flex items-center text-gray-600 hover:text-primary transition-colors"
+          className="content-center text-gray-600 hover:text-primary transition-colors"
         >
           {item.label}
         </Link>
