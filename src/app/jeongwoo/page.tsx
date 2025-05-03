@@ -1,9 +1,11 @@
 import Header from "@/_components/Header";
 
-export default function JeongwooBlogPage() {
+const JeongwooBlogPage = () => {
   return (
     <div className="w-screen">
       <Header />
     </div>
   );
-}
+};
+
+export default JeongwooBlogPage;
