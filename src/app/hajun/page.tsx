@@ -1,3 +1,9 @@
+import Header from '@/components/hajun/Header';
+
 export default function HajunBlogPage() {
-  return <div>page</div>;
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 }
