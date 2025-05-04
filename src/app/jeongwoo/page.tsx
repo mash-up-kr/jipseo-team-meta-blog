@@ -1,9 +1,10 @@
 import Header from "@/_components/Header";
 import Banner from "@/_components/Banner";
-import Space from "@/_components/Space";
+import Space from "@/_components/common/Space";
 import Feed from "@/_components/Feed";
 import Post from "@/_components/Post";
 import Advertise from "@/_components/Advertise";
+import Footer from "@/_components/Footer";
 import BannerThumbnail from "@/_assets/banner-thumbnail.jpg";
 import AuthorImage from "@/_assets/author-image.jpg";
 import { StaticImageData } from "next/image";
@@ -96,13 +97,12 @@ const JeongwooBlogPage = () => {
   return (
     <div className="w-screen">
       <div className="w-full">
-        <div>
-          <Header />
-        </div>
-        <div>
-          <Banner postData={bannerPostData[0]} />
-        </div>
+        <Header />
+
+        <Banner postData={bannerPostData[0]} />
+
         <Space size={144} />
+
         <div>
           <Advertise />
           <Space size={80} />
@@ -118,10 +118,13 @@ const JeongwooBlogPage = () => {
             </button>
           </div>
         </div>
+
         <Space size={80} />
         <Advertise />
       </div>
+
       <Space size={100} />
+      <Footer />
     </div>
   );
 };
