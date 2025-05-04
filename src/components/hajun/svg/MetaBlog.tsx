@@ -1,8 +1,4 @@
-import React from 'react';
-
-type Props = {};
-
-function MetaBlog({}: Props) {
+function MetaBlog() {
   return (
     <svg
       width="158"

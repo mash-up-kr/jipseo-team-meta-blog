@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import React from 'react';
 import mainThumbnail from '@/assets/hajun/images/main-thumbnail-min.jpg';
 import profileImage from '@/assets/hajun/images/profile-image-min.jpg';
 
