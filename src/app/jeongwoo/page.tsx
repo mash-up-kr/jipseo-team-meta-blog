@@ -98,11 +98,8 @@ const JeongwooBlogPage = () => {
     <div className="w-screen">
       <div className="w-full">
         <Header />
-
         <Banner postData={bannerPostData[0]} />
-
         <Space size={144} />
-
         <div>
           <Advertise />
           <Space size={80} />
@@ -118,11 +115,9 @@ const JeongwooBlogPage = () => {
             </button>
           </div>
         </div>
-
         <Space size={80} />
         <Advertise />
       </div>
-
       <Space size={100} />
       <Footer />
     </div>
