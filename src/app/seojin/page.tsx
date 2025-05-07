@@ -1,3 +1,11 @@
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+
 export default function SeojinBlogPage() {
-  return <div>page</div>;
+  return (
+    <div>
+      <Header />
+      <Footer />
+    </div>
+  );
 }
